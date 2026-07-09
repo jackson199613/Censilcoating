@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://censilcoating.com/sitemap.xml
+Sitemap: https://censilcoat.com/sitemap.xml
