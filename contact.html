@@ -30,6 +30,14 @@ tailwind.config = { theme: { extend: {
   .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
   @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17853357891"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17853357891');
+</script>
 </head>
 <body class="bg-[#F8FAFC] text-ink antialiased">
 
@@ -299,6 +307,14 @@ tailwind.config = { theme: { extend: {
       form.classList.add('hidden');
       success.classList.remove('hidden');
       success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      // Google Ads conversion: sample request submitted
+      if (typeof gtag === 'function') {
+        gtag('event', 'conversion', {
+          'send_to': 'AW-17853357891/CdkLCOaU-9wbEMO-ksFC',
+          'value': 1.0,
+          'currency': 'USD'
+        });
+      }
     })
     .catch(function () {
       if (submitBtn) { submitBtn.disabled = false; submitBtn.classList.remove('opacity-60', 'cursor-wait'); }
