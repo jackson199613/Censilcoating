@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Common Problems of Silica Matting Agents in Waterborne Coatings — Censilcoating</title>
+<meta name="description" content="Whiting in high humidity, hard caking, viscosity spikes, specks and grey cast on dark substrates — the mechanism behind each failure and the fix that works in production.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://censilcoat.com/article-troubleshooting-matting.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Censilcoating">
+<meta property="og:title" content="Common Problems of Silica Matting Agents in Waterborne Coatings — Censilcoating">
+<meta property="og:description" content="Whiting in high humidity, hard caking, viscosity spikes, specks and grey cast on dark substrates — the mechanism behind each failure and the fix that works in production.">
+<meta property="og:url" content="https://censilcoat.com/article-troubleshooting-matting.html">
+<meta property="og:image" content="https://censilcoat.com/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = { theme: { extend: {
+  colors: { primary: '#0F172A', accent: '#0369A1', sky: { 500: '#0EA5E9' }, ink: '#020617', mutedbg: '#E8ECF1', line: '#E2E8F0' },
+  fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] } } } }
+</script>
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+  .article-body h2 { margin-top: 2.25rem; font-size: 1.35rem; line-height: 1.35; font-weight: 700; color: #0F172A; }
+  .article-body h3 { margin-top: 1.5rem; font-size: 1.08rem; font-weight: 700; color: #0F172A; }
+  .article-body p { margin-top: 0.9rem; }
+  .article-body ul, .article-body ol { margin-top: 0.9rem; padding-left: 1.4rem; }
+  .article-body ul { list-style: disc; }
+  .article-body ol { list-style: decimal; }
+  .article-body li { margin-top: 0.4rem; }
+  .article-body table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.875rem; }
+  .article-body th { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 2px solid #E2E8F0; color: #64748B; font-weight: 600; }
+  .article-body td { padding: 0.6rem 0.8rem; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
+  .article-body a { color: #0369A1; font-weight: 500; }
+  .article-body a:hover { text-decoration: underline; }
+  .article-body strong { color: #0F172A; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+</style>
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Article",
+ "headline": "Common Problems of Silica Matting Agents in Waterborne Coatings",
+ "description": "Whiting in high humidity, hard caking, viscosity spikes, specks and grey cast on dark substrates \u2014 the mechanism behind each failure and the fix that works in production.",
+ "datePublished": "2026-07-12",
+ "dateModified": "2026-07-12",
+ "author": {
+  "@type": "Organization",
+  "name": "Censilcoating",
+  "url": "https://censilcoat.com/"
+ },
+ "publisher": {
+  "@type": "Organization",
+  "name": "Censilcoating",
+  "url": "https://censilcoat.com/"
+ },
+ "mainEntityOfPage": "https://censilcoat.com/article-troubleshooting-matting.html",
+ "image": "https://censilcoat.com/og-image.png"
+}
+</script>
+</head>
+<body class="bg-[#F8FAFC] text-ink antialiased">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-40 glass border-b border-line">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2.5">
+      <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">C</span>
+      <span class="leading-tight"><span class="block font-bold text-primary text-lg tracking-tight">Censilcoating</span><span class="block text-[11px] text-slate-500 -mt-0.5">a Censil brand</span></span>
+    </a>
+    <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
+      <a href="index.html" class="hover:text-accent transition-colors duration-200">Home</a>
+      <a href="products.html" class="hover:text-accent transition-colors duration-200">Products</a>
+      <a href="solutions.html" class="hover:text-accent transition-colors duration-200">Solutions</a>
+      <a href="about.html" class="hover:text-accent transition-colors duration-200">About</a>
+      <a href="blog.html" class="text-accent font-semibold">Resources</a>
+      <a href="contact.html" class="hover:text-accent transition-colors duration-200">Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a href="contact.html" class="hidden sm:inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer">Request Free Sample</a>
+      <button id="menuBtn" aria-label="Open menu" class="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-line text-slate-700 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-line bg-white px-4 py-3 space-y-1 text-sm font-medium text-slate-700">
+    <a href="index.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Home</a>
+    <a href="products.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Products</a>
+    <a href="solutions.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Solutions</a>
+    <a href="about.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">About</a>
+    <a href="blog.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Resources</a>
+    <a href="contact.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Contact</a>
+    <a href="contact.html" class="block rounded-md bg-accent px-3 py-2 text-center text-white font-semibold">Request Free Sample</a>
+  </div>
+</header>
+
+<main>
+<section class="bg-primary text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+    <p class="text-sm font-semibold text-sky-300">Troubleshooting · <a href="blog.html" class="hover:text-white underline decoration-sky-300/40">Resources</a></p>
+    <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight max-w-4xl">Common Problems of Silica Matting Agents in Waterborne Coatings</h1>
+    <p class="mt-5 text-lg text-slate-300 max-w-2xl">Whiting in high humidity, hard caking, viscosity spikes, specks and grey cast on dark substrates — the mechanism behind each failure and the fix that works in production.</p>
+  </div>
+</section>
+<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+  <div class="article-body text-[15.5px] leading-relaxed text-slate-700">
+
+<p>Most matting-agent complaints in waterborne coatings trace back to five root causes. Here they are, in the order we encounter them in Southeast Asian plants — with the mechanism, the quick diagnosis, and the fix.</p>
+
+<h2>1. Whiting / milky haze in high humidity</h2>
+<p><strong>Symptom:</strong> The coating looks water-white in the lab, but films applied at 80–90% RH dry with a white, cloudy cast — worst on dark-stained wood.</p>
+<p><strong>Mechanism:</strong> Two contributors. First, moisture condenses into the film during evaporation and disrupts coalescence, leaving micro-voids that scatter light. Second, hydrophilic (untreated) silica at the film surface picks up water and amplifies the effect. A broad particle-size distribution adds permanent haze on top.</p>
+<p><strong>Fix:</strong> Switch to a <strong>wax-modified, narrow-PSD grade</strong> (this is the single biggest lever); verify your coalescent package and drying airflow for the humidity you actually run at; keep d50 tight to the film thickness so you can hold dosage down. This exact swap — untreated or broad-PSD grades to Censil660 — is how a Vietnamese wood-coatings maker eliminated whiting at 85% RH while cutting cost 25%.</p>
+
+<h2>2. Hard sediment at the bottom of the can</h2>
+<p><strong>Symptom:</strong> After 2–6 weeks of storage, a dense cake at the bottom that stirring won't recover. Gloss climbs batch-to-batch as effective silica content drops.</p>
+<p><strong>Mechanism:</strong> Waterborne paints have low resting viscosity; bare silica particles settle, pack and hydrogen-bond into a compact layer.</p>
+<p><strong>Fix:</strong> Use a surface-treated grade — the PE-wax shell keeps sediment soft and stir-back. Then add a rheology safety net: a small dose of fumed silica for thixotropy (the "matting + anti-settling combo"). Target a paint that gels lightly at rest but flows under shear. If a can has already hard-caked, it cannot be recovered by stirring; the batch must be reground or discarded — prevention is the only economic fix.</p>
+
+<h2>3. Viscosity spikes after adding the matting agent</h2>
+<p><strong>Symptom:</strong> Paint thickens sharply during letdown, or drifts upward over 24–48 hours; application and levelling suffer.</p>
+<p><strong>Mechanism:</strong> Silica's internal porosity absorbs the liquid phase. High pore volume + high dosage = a large amount of immobilized binder. Over-dosing to chase a gloss target is the usual trigger.</p>
+<p><strong>Fix:</strong> Check dosage first — if you are above ~4–5% to reach target gloss, the grade's matting efficiency is too low for your film; move to a coarser or higher-efficiency grade instead of adding more. Add the silica <strong>after</strong> full resin letdown under moderate shear, and re-balance thickener afterwards, not before.</p>
+
+<h2>4. Rough touch, specks and seeds</h2>
+<p><strong>Symptom:</strong> Matte level is right but the film feels dry or sandy; angled light shows pinpoint specks — fatal on 10–15&nbsp;μm plastic coatings.</p>
+<p><strong>Mechanism:</strong> Either oversize particles (a coarse tail in the PSD, or contamination) or incomplete dispersion leaving agglomerates.</p>
+<p><strong>Fix:</strong> Confirm dispersion: high-speed stirring 15–20 minutes should fully disperse a coating-grade silica — if you need bead-milling, the product is wrong. Check fineness of grind on a Hegman gauge against the grade's d98, not d50. For thin films, specify a narrow-PSD fine grade (<a href="products.html">Censil651 or Censil351C</a>) and a 325-mesh residue spec of ≤0.05%.</p>
+
+<h2>5. Grey cast / loss of depth on dark substrates</h2>
+<p><strong>Symptom:</strong> On dark or black substrates the finish loses "depth" — blacks look washed-out even though gloss is on target.</p>
+<p><strong>Mechanism:</strong> Light scattering from particles that are too coarse for the film, from a broad PSD, or from refractive-index mismatch made worse by high dosage.</p>
+<p><strong>Fix:</strong> Move to a high-clarity narrow grade sized to your dry film; reduce dosage by choosing higher matting efficiency; evaluate on the real dark substrate at every iteration — glass drawdowns hide this failure mode completely.</p>
+
+<h2>Quick diagnostic table</h2>
+<table>
+<thead><tr><th>Symptom</th><th>Most likely cause</th><th>First fix</th></tr></thead>
+<tbody>
+<tr><td>White cast at high humidity</td><td>Untreated silica + coalescence disruption</td><td>Wax-modified narrow-PSD grade</td></tr>
+<tr><td>Hard cake in storage</td><td>Bare particles packing</td><td>Wax-treated grade + fumed-silica thixotrope</td></tr>
+<tr><td>Viscosity spike</td><td>Over-dosing / high absorption</td><td>Higher-efficiency grade, add after letdown</td></tr>
+<tr><td>Specks / rough touch</td><td>Coarse tail or poor dispersion</td><td>Check d98 &amp; grind; narrow-PSD fine grade</td></tr>
+<tr><td>Grey cast on dark wood</td><td>PSD too coarse/broad for film</td><td>High-clarity grade, lower dosage</td></tr>
+</tbody>
+</table>
+<p>If you're seeing one of these in production, <a href="contact.html">describe the symptom, system and current grade</a> — we'll come back within 24 hours with a diagnosis and, where a grade change is the fix, a free 2&nbsp;kg sample to prove it.</p>
+
+  </div>
+  <div class="mt-12 rounded-2xl border border-line bg-white p-7 shadow-sm flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5">
+    <div>
+      <p class="font-bold text-primary">Want this validated on your own formulation?</p>
+      <p class="mt-1 text-sm text-slate-600">Free 2 kg sample + 1:1 benchmark sheet, shipped with the relevant TDS.</p>
+    </div>
+    <a href="contact.html" class="shrink-0 inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors cursor-pointer">Request Free Sample</a>
+  </div>
+</section>
+
+<section class="bg-primary">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+    <h2 class="text-3xl font-bold text-white">Fighting one of these problems right now?</h2>
+    <p class="mt-4 text-slate-300 max-w-2xl mx-auto">Describe the symptom and your system on the contact form — we reply within 24 hours with a diagnosis.</p>
+    <a href="contact.html" class="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-white px-7 py-3.5 text-base font-semibold text-primary shadow-lg hover:bg-slate-100 transition-colors duration-200 cursor-pointer">Request a Free 2&nbsp;kg Sample
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-ink text-slate-400">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div class="md:col-span-1">
+        <div class="flex items-center gap-2.5"><span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-white text-primary font-bold text-lg">C</span><span class="font-bold text-white text-lg">Censilcoating</span></div>
+        <p class="mt-4 text-sm leading-relaxed">Waterborne silica matting agents. A 1:1 performance match for European premium brands — built for Southeast Asia.</p>
+      </div>
+      <div><h4 class="text-sm font-semibold text-white">Explore</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="products.html" class="hover:text-white transition-colors">Products</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Solutions</a></li><li><a href="about.html" class="hover:text-white transition-colors">About</a></li><li><a href="blog.html" class="hover:text-white transition-colors">Resources</a></li><li><a href="faq.html" class="hover:text-white transition-colors">FAQ</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Solutions</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="solutions.html" class="hover:text-white transition-colors">High-Clarity Water-White</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Universal Stable Matting</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Premium Deep-Matte</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Get in touch</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="contact.html" class="hover:text-white transition-colors">Request a free sample</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jiangjun199613@gmail.com" class="hover:text-white transition-colors">jiangjun199613@gmail.com</a></li><li>Vietnam &amp; Malaysia focus</li></ul></div>
+    </div>
+    <div class="mt-12 border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <p>© 2026 Censilcoating, a Censil brand. All rights reserved. · <a href="privacy.html" class="hover:text-white transition-colors underline decoration-white/30">Privacy &amp; Cookie Policy</a></p>
+      <p>ACEMATT® is a trademark of Evonik. SYLOID® is a trademark of Grace. Used for benchmarking reference only.</p>
+    </div>
+  </div>
+</footer>
+<script>
+  const btn = document.getElementById('menuBtn'); const menu = document.getElementById('mobileMenu');
+  if (btn) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+</script>
+</body>
+</html>
