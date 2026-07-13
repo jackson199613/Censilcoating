@@ -159,6 +159,10 @@ tailwind.config = { theme: { extend: {
             <textarea id="message" name="message" rows="4" class="mt-1.5 w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-sm focus:border-accent focus:ring-2 focus:ring-accent/30 focus:outline-none" placeholder="e.g. target gloss level, dry-film thickness, current problem (whiting / viscosity / touch), monthly volume…"></textarea>
             <p class="mt-1.5 text-xs text-slate-500">The more you tell us, the more precise our lead + support recommendation.</p>
           </div>
+          <label for="consent" class="flex items-start gap-3 text-xs text-slate-600 leading-relaxed cursor-pointer">
+            <input id="consent" name="privacy-consent" type="checkbox" value="agreed" class="mt-0.5 h-4 w-4 shrink-0 rounded border-line text-accent focus:ring-2 focus:ring-accent/30 cursor-pointer">
+            <span>I agree that Censilcoating may store and process my data to respond to my enquiry and ship samples, as described in the <a href="privacy.html" target="_blank" class="text-accent font-medium hover:underline">Privacy &amp; Cookie Policy</a>. <span class="text-accent">*</span></span>
+          </label>
           <div id="formError" role="alert" aria-live="polite" class="hidden rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700"></div>
           <button type="submit" class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-lg bg-accent px-7 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer">
             Send sample request
@@ -215,7 +219,7 @@ tailwind.config = { theme: { extend: {
       <div><h4 class="text-sm font-semibold text-white">Get in touch</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="contact.html" class="hover:text-white transition-colors">Request a free sample</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jiangjun199613@gmail.com" class="hover:text-white transition-colors">jiangjun199613@gmail.com</a></li><li>Vietnam &amp; Malaysia focus</li></ul></div>
     </div>
     <div class="mt-12 border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-      <p>© 2026 Censilcoating, a Censil brand. All rights reserved.</p>
+      <p>© 2026 Censilcoating, a Censil brand. All rights reserved. · <a href="privacy.html" class="hover:text-white transition-colors underline decoration-white/30">Privacy &amp; Cookie Policy</a></p>
       <p>ACEMATT® is a trademark of Evonik. SYLOID® is a trademark of Grace. Used for benchmarking reference only.</p>
     </div>
   </div>
@@ -243,6 +247,13 @@ tailwind.config = { theme: { extend: {
       errBox.classList.remove('hidden');
       const first = !name.value.trim() ? name : (!company.value.trim() ? company : email);
       first.focus();
+      return;
+    }
+    const consent = document.getElementById('consent');
+    if (consent && !consent.checked) {
+      errBox.textContent = 'Please tick the privacy consent box so we can process your request.';
+      errBox.classList.remove('hidden');
+      consent.focus();
       return;
     }
     // Submit to Netlify Forms via AJAX (keeps the on-page success state).
