@@ -1,6 +1,2 @@
-/*.webp
-  Cache-Control: public, max-age=2592000
-/*.png
-  Cache-Control: public, max-age=2592000
-/*.svg
-  Cache-Control: public, max-age=2592000
+/*
+  Cache-Control: public, max-age=0, must-revalidate
