@@ -141,13 +141,13 @@ Waterborne-specialist formulation support, including anti-settling combos, dosag
 
 ## Technology detail
 
-Censil matting agents are amorphous precipitated silica (SiO₂ ≥ 99% dry basis), surface-treated with high-melt polyethylene wax. Three engineering levers determine performance:
+Censil matting agents are amorphous precipitated silica (SiO₂ ≥ 99% dry basis), surface-treated with high-melt PE wax. Three engineering levers determine performance:
 
 1. **Narrow particle size distribution (PSD).** A narrow d50 band means fewer oversized particles protruding through the dry film. On dark solid wood this is what separates "water-white" from a grey haze. Censil660 and Censil1650A hold 5.0–5.3 and 6.2–6.5 μm respectively.
 
 2. **Pore volume and surface area.** All grades run 1.6–1.8 mL/g pore volume and 250–280 m²/g surface area. This combination gives matting efficiency without the viscosity spike that comes from over-porous grades in low-solids waterborne systems.
 
-3. **Wax coating ratio.** High-melt PE wax treatment produces soft, stir-back sediment instead of hard cake. It also controls burnish resistance and hand-feel. The ratio is adjustable per customer to match dry-film thickness and target gloss.
+3. **Wax coating ratio.** High-melt PE wax treatment produces soft, stir-back sediment instead of hard cake. It also controls hand-feel; the deep-matte grades are described as uniform, fine and scratch-resistant. The ratio is adjustable per customer to match dry-film thickness and target gloss.
 
 Customization: d50 tunable across 3.5–7.0 μm; wax-coating ratio adjustable. Minimum for a tuned grade is 500 kg, not the 5–10 tons typical of multinational suppliers.
 
