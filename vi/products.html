@@ -198,9 +198,9 @@ tailwind.config = { theme: { extend: {
     },
     {
       "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil660",
+      "@id": "https://censilcoat.com/vi/products.html#censil660",
       "name": "Censil660",
-      "description": "High-clarity water-white matting agent for waterborne clear topcoats and high-transparency wood-grain systems. 1:1 match for Grace SYLOID ED 30.",
+      "description": "High-clarity water-white clear topcoats; \"water-white\" appearance",
       "sku": "Censil660",
       "category": "Silica matting agent",
       "brand": {
@@ -211,19 +211,33 @@ tailwind.config = { theme: { extend: {
         "@id": "https://censilcoat.com/#organization"
       },
       "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
-      "isSimilarTo": {
-        "@type": "Product",
-        "name": "SYLOID ED 30"
-      },
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 5.0,
+          "maxValue": 5.3,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
         "seller": {
           "@id": "https://censilcoat.com/#organization"
         },
@@ -242,13 +256,17 @@ tailwind.config = { theme: { extend: {
           "US"
         ],
         "url": "https://censilcoat.com/contact.html"
+      },
+      "isSimilarTo": {
+        "@type": "Product",
+        "name": "SYLOID® ED 30"
       }
     },
     {
       "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil651",
+      "@id": "https://censilcoat.com/vi/products.html#censil651",
       "name": "Censil651",
-      "description": "High-clarity water-white matting agent for waterborne wood coatings requiring depth and fine touch.",
+      "description": "Fine touch & smooth surface in high-clarity semi/matte clears",
       "sku": "Censil651",
       "category": "Silica matting agent",
       "brand": {
@@ -259,19 +277,33 @@ tailwind.config = { theme: { extend: {
         "@id": "https://censilcoat.com/#organization"
       },
       "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
-      "isSimilarTo": {
-        "@type": "Product",
-        "name": "SYLOID ED 2"
-      },
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 4.9,
+          "maxValue": 5.2,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
         "seller": {
           "@id": "https://censilcoat.com/#organization"
         },
@@ -290,61 +322,17 @@ tailwind.config = { theme: { extend: {
           "US"
         ],
         "url": "https://censilcoat.com/contact.html"
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil361c",
-      "name": "Censil361C",
-      "description": "Universal stable matting agent for semi-matte to matte wood and industrial plastic coatings. Wide, stable application window.",
-      "sku": "Censil361C",
-      "category": "Silica matting agent",
-      "brand": {
-        "@type": "Brand",
-        "name": "Censil"
       },
-      "manufacturer": {
-        "@id": "https://censilcoat.com/#organization"
-      },
-      "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
       "isSimilarTo": {
         "@type": "Product",
-        "name": "ACEMATT OK 412"
-      },
-      "offers": {
-        "@type": "Offer",
-        "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
-        "seller": {
-          "@id": "https://censilcoat.com/#organization"
-        },
-        "eligibleQuantity": {
-          "@type": "QuantitativeValue",
-          "minValue": 500,
-          "unitCode": "KGM"
-        },
-        "areaServed": [
-          "VN",
-          "MY",
-          "TH",
-          "ID",
-          "PH",
-          "EU",
-          "US"
-        ],
-        "url": "https://censilcoat.com/contact.html"
+        "name": "SYLOID® ED 2"
       }
     },
     {
       "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil351c",
+      "@id": "https://censilcoat.com/vi/products.html#censil351c",
       "name": "Censil351C",
-      "description": "Universal stable matting agent for waterborne wood coatings, easy to disperse and scale.",
+      "description": "Fine, universal finishes balancing appearance & stability",
       "sku": "Censil351C",
       "category": "Silica matting agent",
       "brand": {
@@ -355,19 +343,33 @@ tailwind.config = { theme: { extend: {
         "@id": "https://censilcoat.com/#organization"
       },
       "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
-      "isSimilarTo": {
-        "@type": "Product",
-        "name": "ACEMATT OK 412"
-      },
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 4.8,
+          "maxValue": 5.1,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
         "seller": {
           "@id": "https://censilcoat.com/#organization"
         },
@@ -386,13 +388,83 @@ tailwind.config = { theme: { extend: {
           "US"
         ],
         "url": "https://censilcoat.com/contact.html"
+      },
+      "isSimilarTo": {
+        "@type": "Product",
+        "name": "SYLOID® ED 3"
       }
     },
     {
       "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil1531d",
+      "@id": "https://censilcoat.com/vi/products.html#censil361c",
+      "name": "Censil361C",
+      "description": "Universal semi-matte/matte; higher matting efficiency",
+      "sku": "Censil361C",
+      "category": "Silica matting agent",
+      "brand": {
+        "@type": "Brand",
+        "name": "Censil"
+      },
+      "manufacturer": {
+        "@id": "https://censilcoat.com/#organization"
+      },
+      "image": "https://censilcoat.com/og-image.png",
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 5.9,
+          "maxValue": 6.2,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://censilcoat.com/#organization"
+        },
+        "eligibleQuantity": {
+          "@type": "QuantitativeValue",
+          "minValue": 500,
+          "unitCode": "KGM"
+        },
+        "areaServed": [
+          "VN",
+          "MY",
+          "TH",
+          "ID",
+          "PH",
+          "EU",
+          "US"
+        ],
+        "url": "https://censilcoat.com/contact.html"
+      },
+      "isSimilarTo": {
+        "@type": "Product",
+        "name": "SYLOID® ED 4"
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://censilcoat.com/vi/products.html#censil1531d",
       "name": "Censil1531D",
-      "description": "Universal stable matting agent for import substitution in waterborne industrial coatings.",
+      "description": "First-round substitution, small trials, cost-sensitive projects",
       "sku": "Censil1531D",
       "category": "Silica matting agent",
       "brand": {
@@ -403,19 +475,33 @@ tailwind.config = { theme: { extend: {
         "@id": "https://censilcoat.com/#organization"
       },
       "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
-      "isSimilarTo": {
-        "@type": "Product",
-        "name": "ACEMATT TS 100"
-      },
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 5.3,
+          "maxValue": 5.6,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
         "seller": {
           "@id": "https://censilcoat.com/#organization"
         },
@@ -438,9 +524,9 @@ tailwind.config = { theme: { extend: {
     },
     {
       "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil1650a",
+      "@id": "https://censilcoat.com/vi/products.html#censil1650a",
       "name": "Censil1650A",
-      "description": "Premium deep-matte matting agent for high-end waterborne plastic coatings and tactile furniture finishes. Uniform, fine and scratch-resistant.",
+      "description": "Low-gloss deep-matte; premium surface development",
       "sku": "Censil1650A",
       "category": "Silica matting agent",
       "brand": {
@@ -451,19 +537,33 @@ tailwind.config = { theme: { extend: {
         "@id": "https://censilcoat.com/#organization"
       },
       "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
-      "isSimilarTo": {
-        "@type": "Product",
-        "name": "SYLOID ED 3"
-      },
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 6.2,
+          "maxValue": 6.5,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
         "seller": {
           "@id": "https://censilcoat.com/#organization"
         },
@@ -482,13 +582,17 @@ tailwind.config = { theme: { extend: {
           "US"
         ],
         "url": "https://censilcoat.com/contact.html"
+      },
+      "isSimilarTo": {
+        "@type": "Product",
+        "name": "SYLOID® ED 30"
       }
     },
     {
       "@type": "Product",
-      "@id": "https://censilcoat.com/products.html#censil3851",
+      "@id": "https://censilcoat.com/vi/products.html#censil3851",
       "name": "Censil3851",
-      "description": "Premium deep-matte matting agent for tactile low-gloss surfaces.",
+      "description": "Special-reserve grade for extreme low-gloss / hard plastic surfaces",
       "sku": "Censil3851",
       "category": "Silica matting agent",
       "brand": {
@@ -499,19 +603,33 @@ tailwind.config = { theme: { extend: {
         "@id": "https://censilcoat.com/#organization"
       },
       "image": "https://censilcoat.com/og-image.png",
-      "material": "Silica",
-      "isSimilarTo": {
-        "@type": "Product",
-        "name": "SYLOID ED 4"
-      },
+      "material": "Amorphous precipitated silica (SiO2)",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Median particle size (d50)",
+          "minValue": 8.5,
+          "maxValue": 9.0,
+          "unitText": "μm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Pore volume",
+          "minValue": 1.6,
+          "maxValue": 1.8,
+          "unitText": "mL/g"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Surface area",
+          "minValue": 250.0,
+          "maxValue": 280.0,
+          "unitText": "m2/g"
+        }
+      ],
       "offers": {
         "@type": "Offer",
         "availability": "https://schema.org/InStock",
-        "priceCurrency": "USD",
-        "priceSpecification": {
-          "@type": "PriceSpecification",
-          "valueAddedTaxIncluded": false
-        },
         "seller": {
           "@id": "https://censilcoat.com/#organization"
         },
@@ -530,6 +648,10 @@ tailwind.config = { theme: { extend: {
           "US"
         ],
         "url": "https://censilcoat.com/contact.html"
+      },
+      "isSimilarTo": {
+        "@type": "Product",
+        "name": "ACEMATT® TS 100"
       }
     },
     {
@@ -674,35 +796,35 @@ tailwind.config = { theme: { extend: {
 <!-- HEADER -->
 <header class="sticky top-0 z-40 glass border-b border-line">
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-    <a href="index.html" class="flex items-center gap-2.5">
+    <a class='flex items-center gap-2.5' href='/vi/'>
       <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">C</span>
       <span class="leading-tight"><span class="block font-bold text-primary text-lg tracking-tight">Censilcoating</span><span class="block text-[11px] text-slate-500 -mt-0.5">thương hiệu của Censil</span></span>
     </a>
     <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
-      <a href="index.html" class="hover:text-accent transition-colors duration-200">Trang chủ</a>
-      <a href="products.html" class="text-accent font-semibold">Sản phẩm</a>
-      <a href="solutions.html" class="hover:text-accent transition-colors duration-200">Giải pháp</a>
-      <a href="about.html" class="hover:text-accent transition-colors duration-200">Về chúng tôi</a>
-      <a href="../blog.html" class="hover:text-accent transition-colors duration-200">Tài nguyên</a>
-      <a href="contact.html" class="hover:text-accent transition-colors duration-200">Liên hệ</a>
-      <span class="text-line">|</span><a href="../products.html" class="text-xs font-semibold text-slate-400 hover:text-accent">EN</a><span class="text-xs font-bold text-accent">VI</span>
+      <a class='hover:text-accent transition-colors duration-200' href='/vi/'>Trang chủ</a>
+      <a class='text-accent font-semibold' href='/vi/products'>Sản phẩm</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/vi/solutions'>Giải pháp</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/vi/about'>Về chúng tôi</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/blog'>Tài nguyên</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/vi/contact'>Liên hệ</a>
+      <span class="text-line">|</span><a class='text-xs font-semibold text-slate-400 hover:text-accent' href='/products'>EN</a><span class="text-xs font-bold text-accent">VI</span>
     </div>
     <div class="flex items-center gap-3">
-      <a href="contact.html" class="hidden sm:inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer">Yêu cầu mẫu thử miễn phí</a>
+      <a class='hidden sm:inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử miễn phí</a>
       <button id="menuBtn" aria-label="Mở menu" class="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-line text-slate-700 cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
       </button>
     </div>
   </nav>
   <div id="mobileMenu" class="hidden lg:hidden border-t border-line bg-white px-4 py-3 space-y-1 text-sm font-medium text-slate-700">
-    <a href="index.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Trang chủ</a>
-    <a href="products.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Sản phẩm</a>
-    <a href="solutions.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Giải pháp</a>
-    <a href="about.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Về chúng tôi</a>
-    <a href="../blog.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Tài nguyên</a>
-    <a href="contact.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Liên hệ</a>
-    <a href="contact.html" class="block rounded-md bg-accent px-3 py-2 text-center text-white font-semibold">Yêu cầu mẫu thử miễn phí</a>
-    <a href="../products.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">English (EN)</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/vi/'>Trang chủ</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/vi/products'>Sản phẩm</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/vi/solutions'>Giải pháp</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/vi/about'>Về chúng tôi</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/blog'>Tài nguyên</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/vi/contact'>Liên hệ</a>
+    <a class='block rounded-md bg-accent px-3 py-2 text-center text-white font-semibold' href='/vi/contact'>Yêu cầu mẫu thử miễn phí</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/products'>English (EN)</a>
   </div>
 </header>
 
@@ -789,7 +911,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-accent">SYLOID® ED 30</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Mờ độ trong cao</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -809,7 +931,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-accent">SYLOID® ED 2</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Bán mờ/mờ mịn</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -829,7 +951,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-accent">SYLOID® ED 3</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Mờ đa dụng</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -849,7 +971,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-accent">SYLOID® ED 4</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Bán mờ / mờ</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -869,7 +991,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-slate-500">Tối ưu chi phí</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Mờ đa dụng</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -889,7 +1011,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-accent">SYLOID® ED 30</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Mờ sâu độ bóng thấp</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -909,7 +1031,7 @@ tailwind.config = { theme: { extend: {
           <dt class="text-slate-500">Đối chuẩn</dt><dd class="text-right font-semibold text-accent">ACEMATT® TS 100</dd>
           <dt class="text-slate-500">Hiệu ứng</dt><dd class="text-right font-semibold text-primary">Độ bóng cực thấp</dd>
         </dl>
-        <a href="contact.html" class="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer">Yêu cầu mẫu thử
+        <a class='mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent hover:gap-2.5 transition-all cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử
           <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
         </a>
       </div>
@@ -981,7 +1103,7 @@ tailwind.config = { theme: { extend: {
  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
   <div class="flex items-center justify-between flex-wrap gap-4">
     <h2 class="text-2xl sm:text-3xl font-bold text-primary">Các mã sản phẩm &amp; đối chuẩn 1:1</h2>
-    <a href="contact.html" class="inline-flex items-center gap-2 text-accent font-semibold hover:gap-3 transition-all duration-200">Yêu cầu TDS đầy đủ
+    <a class='inline-flex items-center gap-2 text-accent font-semibold hover:gap-3 transition-all duration-200' href='/vi/contact'>Yêu cầu TDS đầy đủ
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
     </a>
   </div>
@@ -1119,7 +1241,7 @@ tailwind.config = { theme: { extend: {
       </div>
     </div>
     <div class="mt-10">
-      <a href="solutions.html" class="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-[#075985] transition-colors cursor-pointer">Xem chi tiết đầy đủ các giải pháp
+      <a class='inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-[#075985] transition-colors cursor-pointer' href='/vi/solutions'>Xem chi tiết đầy đủ các giải pháp
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
       </a>
     </div>
@@ -1182,7 +1304,7 @@ tailwind.config = { theme: { extend: {
     </div>
   </div>
   <div class="mt-8">
-    <a href="contact.html" class="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-[#075985] transition-colors cursor-pointer">Yêu cầu tài liệu
+    <a class='inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-white hover:bg-[#075985] transition-colors cursor-pointer' href='/vi/contact'>Yêu cầu tài liệu
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
     </a>
   </div>
@@ -1265,7 +1387,7 @@ tailwind.config = { theme: { extend: {
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
     <h2 class="text-3xl font-bold text-white">Chưa chắc mã nào tương ứng với sản phẩm nhập khẩu bạn đang dùng?</h2>
     <p class="mt-4 text-slate-300 max-w-2xl mx-auto">Gửi cho chúng tôi mã sản phẩm bạn đang sử dụng và độ bóng mục tiêu — chúng tôi sẽ đề xuất bộ đôi chủ lực + hỗ trợ phù hợp và gửi mẫu thử 2&nbsp;kg miễn phí.</p>
-    <a href="contact.html" class="mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-white px-7 py-3.5 text-base font-semibold text-primary shadow-lg hover:bg-slate-100 transition-colors duration-200 cursor-pointer">Yêu cầu mẫu thử 2&nbsp;kg miễn phí
+    <a class='mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-white px-7 py-3.5 text-base font-semibold text-primary shadow-lg hover:bg-slate-100 transition-colors duration-200 cursor-pointer' href='/vi/contact'>Yêu cầu mẫu thử 2&nbsp;kg miễn phí
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
     </a>
   </div>
@@ -1280,12 +1402,12 @@ tailwind.config = { theme: { extend: {
         <div class="flex items-center gap-2.5"><span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-white text-primary font-bold text-lg">C</span><span class="font-bold text-white text-lg">Censilcoating</span></div>
         <p class="mt-4 text-sm leading-relaxed">Chất tạo mờ silica cho hệ gốc nước. Hiệu năng tương đương 1:1 với các thương hiệu cao cấp châu Âu — xây dựng cho thị trường Đông Nam Á.</p>
       </div>
-      <div><h4 class="text-sm font-semibold text-white">Khám phá</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="products.html" class="hover:text-white transition-colors">Sản phẩm</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Giải pháp</a></li><li><a href="about.html" class="hover:text-white transition-colors">Về chúng tôi</a></li><li><a href="../blog.html" class="hover:text-white transition-colors">Tài nguyên</a></li><li><a href="faq.html" class="hover:text-white transition-colors">Câu hỏi thường gặp</a></li><li><a href="../news.html" class="hover:text-white transition-colors">Tin tức</a></li></ul></div>
-      <div><h4 class="text-sm font-semibold text-white">Giải pháp</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="solutions.html" class="hover:text-white transition-colors">Độ trong cao, trong suốt như nước</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Tạo mờ đa dụng, ổn định</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Mờ sâu cao cấp</a></li></ul></div>
-      <div><h4 class="text-sm font-semibold text-white">Liên hệ</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="contact.html" class="hover:text-white transition-colors">Yêu cầu mẫu thử miễn phí</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jan.jiang@censilcoat.com" class="hover:text-white transition-colors">jan.jiang@censilcoat.com</a></li><li>Trọng tâm thị trường Việt Nam &amp; Malaysia</li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Khám phá</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/vi/products'>Sản phẩm</a></li><li><a class='hover:text-white transition-colors' href='/vi/solutions'>Giải pháp</a></li><li><a class='hover:text-white transition-colors' href='/vi/about'>Về chúng tôi</a></li><li><a class='hover:text-white transition-colors' href='/blog'>Tài nguyên</a></li><li><a class='hover:text-white transition-colors' href='/vi/faq'>Câu hỏi thường gặp</a></li><li><a class='hover:text-white transition-colors' href='/news'>Tin tức</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Giải pháp</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/vi/solutions'>Độ trong cao, trong suốt như nước</a></li><li><a class='hover:text-white transition-colors' href='/vi/solutions'>Tạo mờ đa dụng, ổn định</a></li><li><a class='hover:text-white transition-colors' href='/vi/solutions'>Mờ sâu cao cấp</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Liên hệ</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/vi/contact'>Yêu cầu mẫu thử miễn phí</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jan.jiang@censilcoat.com" class="hover:text-white transition-colors">jan.jiang@censilcoat.com</a></li><li>Trọng tâm thị trường Việt Nam &amp; Malaysia</li></ul></div>
     </div>
     <div class="mt-12 border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-      <p>© 2026 Censilcoating, thương hiệu của Censil. Bảo lưu mọi quyền. · <a href="../privacy.html" class="hover:text-white transition-colors underline decoration-white/30">Chính sách bảo mật &amp; Cookie</a></p>
+      <p>© 2026 Censilcoating, thương hiệu của Censil. Bảo lưu mọi quyền. · <a class='hover:text-white transition-colors underline decoration-white/30' href='/privacy'>Chính sách bảo mật &amp; Cookie</a></p>
       <p>ACEMATT® là nhãn hiệu của Evonik. SYLOID® là nhãn hiệu của Grace. Chỉ sử dụng cho mục đích tham chiếu đối chuẩn.</p>
     </div>
   </div>
