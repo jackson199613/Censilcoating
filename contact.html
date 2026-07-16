@@ -205,18 +205,18 @@ tailwind.config = { theme: { extend: {
 <!-- HEADER -->
 <header class="sticky top-0 z-40 glass border-b border-line">
   <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-    <a href="index.html" class="flex items-center gap-2.5">
+    <a class='flex items-center gap-2.5' href='/'>
       <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">C</span>
       <span class="leading-tight"><span class="block font-bold text-primary text-lg tracking-tight">Censilcoating</span><span class="block text-[11px] text-slate-500 -mt-0.5">a Censil brand</span></span>
     </a>
     <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
-      <a href="index.html" class="hover:text-accent transition-colors duration-200">Home</a>
-      <a href="products.html" class="hover:text-accent transition-colors duration-200">Products</a>
-      <a href="solutions.html" class="hover:text-accent transition-colors duration-200">Solutions</a>
-      <a href="about.html" class="hover:text-accent transition-colors duration-200">About</a>
-      <a href="blog.html" class="hover:text-accent transition-colors duration-200">Resources</a>
-      <a href="contact.html" class="text-accent font-semibold">Contact</a>
-      <span class="text-line">|</span><span class="text-xs font-bold text-accent">EN</span><a href="vi/contact.html" class="text-xs font-semibold text-slate-400 hover:text-accent">VI</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/'>Home</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/products'>Products</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/solutions'>Solutions</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/about'>About</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/blog'>Resources</a>
+      <a class='text-accent font-semibold' href='/contact'>Contact</a>
+      <span class="text-line">|</span><span class="text-xs font-bold text-accent">EN</span><a class='text-xs font-semibold text-slate-400 hover:text-accent' href='/vi/contact'>VI</a>
     </div>
     <div class="flex items-center gap-3">
       <a href="#sample-form" class="hidden sm:inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer">Request Free Sample</a>
@@ -226,14 +226,14 @@ tailwind.config = { theme: { extend: {
     </div>
   </nav>
   <div id="mobileMenu" class="hidden lg:hidden border-t border-line bg-white px-4 py-3 space-y-1 text-sm font-medium text-slate-700">
-    <a href="index.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Home</a>
-    <a href="products.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Products</a>
-    <a href="solutions.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Solutions</a>
-    <a href="about.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">About</a>
-    <a href="blog.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Resources</a>
-    <a href="contact.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Contact</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/'>Home</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/products'>Products</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/solutions'>Solutions</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/about'>About</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/blog'>Resources</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/contact'>Contact</a>
     <a href="#sample-form" class="block rounded-md bg-accent px-3 py-2 text-center text-white font-semibold">Request Free Sample</a>
-    <a href="vi/contact.html" class="block rounded-md px-3 py-2 hover:bg-mutedbg">Tiếng Việt (VI)</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/vi/contact'>Tiếng Việt (VI)</a>
   </div>
 </header>
 
@@ -245,6 +245,15 @@ tailwind.config = { theme: { extend: {
     <p class="mt-5 text-lg text-slate-300 max-w-2xl">Tell us your resin system, target gloss and the import grade you currently use. We ship a free 2&nbsp;kg sample with a 1:1 benchmark sheet and a REACH Declaration of Conformity.</p>
   </div>
 </section>
+<!-- ============ TL;DR / QUICK ANSWER ============ -->
+<section class="bg-sky-50 border-b border-line">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
+    <p class="text-xs font-semibold uppercase tracking-wider text-accent">Quick answer</p>
+    <h2 class="mt-2 text-xl sm:text-2xl font-bold tracking-tight text-primary leading-snug">How do I get a sample, and what actually arrives?</h2>
+    <p class="mt-4 text-base sm:text-[17px] leading-relaxed text-slate-700">Send us your resin system, target gloss and the import grade you use today. A free 2 kg sample ships with a 1:1 physicochemical benchmark sheet against that grade, the relevant TDS, and a REACH Declaration of Conformity — no charge and no commitment. We reply within 24 hours, and first orders start at 500 kg to 1 ton rather than a full container.</p>
+  </div>
+</section>
+
 
 <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
   <div class="grid lg:grid-cols-5 gap-10">
@@ -253,7 +262,7 @@ tailwind.config = { theme: { extend: {
       <div class="rounded-2xl border border-line bg-white p-7 sm:p-9 shadow-sm">
         <h2 class="text-2xl font-bold text-primary">Sample request</h2>
         <p class="mt-2 text-sm text-slate-600">Fields marked <span class="text-accent font-semibold">*</span> are required. We reply within 24 hours.</p>
-        <form id="reqForm" name="sample-request" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" class="mt-7 space-y-5" novalidate>
+        <form class='mt-7 space-y-5' id='reqForm' method='POST' name='sample-request' novalidate>
           <input type="hidden" name="form-name" value="sample-request">
           <p class="hidden"><label>Don't fill this out if you're human: <input name="bot-field"></label></p>
           <div class="grid sm:grid-cols-2 gap-5">
@@ -332,7 +341,7 @@ tailwind.config = { theme: { extend: {
           </div>
           <label for="consent" class="flex items-start gap-3 text-xs text-slate-600 leading-relaxed cursor-pointer">
             <input id="consent" name="privacy-consent" type="checkbox" value="agreed" class="mt-0.5 h-4 w-4 shrink-0 rounded border-line text-accent focus:ring-2 focus:ring-accent/30 cursor-pointer">
-            <span>I agree that Censilcoating may store and process my data to respond to my enquiry and ship samples, as described in the <a href="privacy.html" target="_blank" class="text-accent font-medium hover:underline">Privacy &amp; Cookie Policy</a>. <span class="text-accent">*</span></span>
+            <span>I agree that Censilcoating may store and process my data to respond to my enquiry and ship samples, as described in the <a class='text-accent font-medium hover:underline' href='/privacy' target='_blank'>Privacy &amp; Cookie Policy</a>. <span class="text-accent">*</span></span>
           </label>
           <div id="formError" role="alert" aria-live="polite" class="hidden rounded-lg bg-red-50 border border-red-200 px-4 py-3 text-sm text-red-700"></div>
           <button type="submit" class="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-lg bg-accent px-7 py-3.5 text-base font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer">
@@ -425,12 +434,12 @@ tailwind.config = { theme: { extend: {
         <div class="flex items-center gap-2.5"><span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-white text-primary font-bold text-lg">C</span><span class="font-bold text-white text-lg">Censilcoating</span></div>
         <p class="mt-4 text-sm leading-relaxed">Waterborne silica matting agents. A 1:1 performance match for European premium brands — built for Southeast Asia.</p>
       </div>
-      <div><h4 class="text-sm font-semibold text-white">Explore</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="products.html" class="hover:text-white transition-colors">Products</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Solutions</a></li><li><a href="about.html" class="hover:text-white transition-colors">About</a></li><li><a href="blog.html" class="hover:text-white transition-colors">Resources</a></li><li><a href="faq.html" class="hover:text-white transition-colors">FAQ</a></li><li><a href="news.html" class="hover:text-white transition-colors">News</a></li><li><a href="documents.html" class="hover:text-white transition-colors">Documents</a></li><li><a href="media.html" class="hover:text-white transition-colors">Media</a></li></ul></div>
-      <div><h4 class="text-sm font-semibold text-white">Solutions</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="solutions.html" class="hover:text-white transition-colors">High-Clarity Water-White</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Universal Stable Matting</a></li><li><a href="solutions.html" class="hover:text-white transition-colors">Premium Deep-Matte</a></li></ul></div>
-      <div><h4 class="text-sm font-semibold text-white">Get in touch</h4><ul class="mt-4 space-y-2 text-sm"><li><a href="contact.html" class="hover:text-white transition-colors">Request a free sample</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jan.jiang@censilcoat.com" class="hover:text-white transition-colors">jan.jiang@censilcoat.com</a></li><li>Vietnam &amp; Malaysia focus</li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Explore</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/products'>Products</a></li><li><a class='hover:text-white transition-colors' href='/solutions'>Solutions</a></li><li><a class='hover:text-white transition-colors' href='/about'>About</a></li><li><a class='hover:text-white transition-colors' href='/blog'>Resources</a></li><li><a class='hover:text-white transition-colors' href='/faq'>FAQ</a></li><li><a class='hover:text-white transition-colors' href='/news'>News</a></li><li><a class='hover:text-white transition-colors' href='/documents'>Documents</a></li><li><a class='hover:text-white transition-colors' href='/media'>Media</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Solutions</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/solutions'>High-Clarity Water-White</a></li><li><a class='hover:text-white transition-colors' href='/solutions'>Universal Stable Matting</a></li><li><a class='hover:text-white transition-colors' href='/solutions'>Premium Deep-Matte</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Get in touch</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/contact'>Request a free sample</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jan.jiang@censilcoat.com" class="hover:text-white transition-colors">jan.jiang@censilcoat.com</a></li><li>Vietnam &amp; Malaysia focus</li></ul></div>
     </div>
     <div class="mt-12 border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-      <p>© 2026 Censilcoating, a Censil brand. All rights reserved. · <a href="privacy.html" class="hover:text-white transition-colors underline decoration-white/30">Privacy &amp; Cookie Policy</a></p>
+      <p>© 2026 Censilcoating, a Censil brand. All rights reserved. · <a class='hover:text-white transition-colors underline decoration-white/30' href='/privacy'>Privacy &amp; Cookie Policy</a></p>
       <p>ACEMATT® is a trademark of Evonik. SYLOID® is a trademark of Grace. Used for benchmarking reference only.</p>
     </div>
   </div>
