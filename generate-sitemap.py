@@ -17,7 +17,11 @@ EXCLUDE_DIRS = {".git", ".github", "node_modules"}
 
 def git_lastmod(path):
     try:
-        out = subprocess.run(["git", "log", "-1", "--format=%cI", "--", path],
+        # 排除 stamp-dates.py 的提交，否则 lastmod 会变成"盖日期的时间"
+        # 而不是"内容真正改动的时间"，与页面上显示的日期打架。
+        out = subprocess.run(["git", "log", "-1", "--format=%cI",
+                              "--invert-grep", "--grep=chore: stamp last-updated dates",
+                              "--", path],
                              capture_output=True, text=True, timeout=20).stdout.strip()
         if out:
             return out[:10]
