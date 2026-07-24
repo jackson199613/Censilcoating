@@ -1,8 +1,8 @@
-# Censilcoating
+# Censilcoat
 
 > Factory-direct manufacturer of waterborne silica matting agents — engineered as 1:1 performance replacements for Evonik ACEMATT® and Grace SYLOID® at 20–30% lower landed cost. A Censil brand, producing in Fujian, China since 2010, serving coating manufacturers in Vietnam, Malaysia, Southeast Asia, Europe and the Americas.
 
-Censilcoating supplies amorphous precipitated silica matting agents (SiO₂ ≥ 99% dry basis) for waterborne wood and plastic coatings. Every grade is benchmarked against a specific imported grade so labs can swap 1:1 without reformulating. Free 2 kg samples ship with a physicochemical benchmark sheet. MOQ starts at 500 kg — not the 5–10 tons or full container typical of multinational suppliers.
+Censilcoat supplies amorphous precipitated silica matting agents (SiO₂ ≥ 99% dry basis) for waterborne wood and plastic coatings. Every grade is benchmarked against a specific imported grade so labs can swap 1:1 without reformulating. Free 2 kg samples ship with a physicochemical benchmark sheet. MOQ starts at 500 kg — not the 5–10 tons or full container typical of multinational suppliers.
 
 ## Key facts
 
@@ -169,7 +169,7 @@ Benchmark pairs:
 
 ## Why buyers switch
 
-| Dimension | Censilcoating | Evonik / Grace |
+| Dimension | Censilcoat | Evonik / Grace |
 |---|---|---|
 | Price | 20–30% lower landed cost | High; freight and tariff passed down layer by layer |
 | Customization | Tunable d50 3.5–7.0 μm and wax-coating ratio, from 500 kg | Standard grades; very high custom MOQ |
@@ -179,7 +179,7 @@ Benchmark pairs:
 
 ## Company
 
-Censilcoating is the waterborne-matting sub-brand of Censil, an integrated manufacturing-and-trading operation: an own silica plant in Fujian, China plus an in-house export team handling QC, documentation and logistics. Trading since 2010.
+Censilcoat is the waterborne-matting sub-brand of Censil, an integrated manufacturing-and-trading operation: an own silica plant in Fujian, China plus an in-house export team handling QC, documentation and logistics. Trading since 2010.
 
 Registered export entity: Longyan Shenghe Trading Co., Ltd. — verifiable on China's National Enterprise Credit Information Publicity System (gsxt.gov.cn).
 
