@@ -35,3 +35,5 @@ https://censilflow.com/* https://censilcoat.com/:splat 301!
 https://www.censilflow.com/* https://censilcoat.com/:splat 301!
 http://censilflow.com/* https://censilcoat.com/:splat 301!
 http://www.censilflow.com/* https://censilcoat.com/:splat 301!
+/qualifications.html /about.html 301
+/qualifications /about.html 301
