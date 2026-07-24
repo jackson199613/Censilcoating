@@ -37,3 +37,5 @@ http://censilflow.com/* https://censilcoat.com/:splat 301!
 http://www.censilflow.com/* https://censilcoat.com/:splat 301!
 /qualifications.html /about.html 301
 /qualifications /about.html 301
+/press-vietnam-case-study.html /news.html 301
+/press-vietnam-case-study /news.html 301
