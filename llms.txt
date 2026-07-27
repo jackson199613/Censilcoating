@@ -59,9 +59,11 @@ All grades: pore volume 1.6–1.8 mL/g, surface area 250–280 m²/g.
 ## Technical articles
 
 - [Silica Matting Agent Market Outlook 2026](https://censilcoat.com/article-market-outlook-2026.html): the four forces reshaping matting agent sourcing for Southeast Asian coating plants, with a five-step qualification strategy
+- [Silica Matting Agent Prices & VOC Regulation 2026 — Southeast Asia Sourcing Report](https://censilcoat.com/article-sourcing-report-2026.html): data-led report on H1 2026 precipitated-silica prices, the regional cost gap (China ~USD 1,050/MT vs Germany/Japan USD 1,350–1,400/MT), and the China/SE Asia VOC regulation wave (GB 30981-2025) driving waterborne substitution
 - [How to Choose a Silica Matting Agent](https://censilcoat.com/article-choose-matting-agent.html): how particle size, pore volume and surface treatment drive gloss, clarity and touch in waterborne wood coatings
 - [Replacing Imported Matting Agents 1:1](https://censilcoat.com/article-replace-imported-grades.html): six-step path to drop-in replacement of Evonik and Grace grades in ultra-thin waterborne plastic coatings
 - [Matting Agent Troubleshooting Guide](https://censilcoat.com/article-troubleshooting-matting.html): mechanisms and fixes for whiting, hard caking, viscosity spikes and grey cast on dark substrates
+- [Whitening in Waterborne Matte Coatings at High Humidity](https://censilcoat.com/article-high-humidity-whitening.html): the two mechanisms behind whitening/blushing above 80% RH (incomplete coalescence + matting-silica light scatter), a dark-panel diagnosis test, and process/formulation/material fixes including wax-modified hydrophobic silica selection
 
 ## Markets served
 

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Whitening in Waterborne Matte Coatings at High Humidity: Mechanism, Diagnosis &amp; Fixes | Censilcoat</title>
+<meta name="description" content="Why waterborne matte coatings whiten and blush above 80% relative humidity — the film-formation and matting-silica mechanisms, how to diagnose which one you have, and the formulation, process and material fixes. A technical reference for tropical-climate coating plants.">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="canonical" href="https://censilcoat.com/article-high-humidity-whitening.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Censilcoat">
+<meta property="og:title" content="Whitening in Waterborne Matte Coatings at High Humidity: Mechanism, Diagnosis &amp; Fixes | Censilcoat">
+<meta property="og:description" content="The film-formation and matting-silica mechanisms behind whitening and blushing above 80% RH, how to diagnose which one you have, and the formulation, process and material fixes.">
+<meta property="og:url" content="https://censilcoat.com/article-high-humidity-whitening.html">
+<meta property="og:image" content="https://censilcoat.com/og-image.png">
+    <meta name="twitter:image" content="https://censilcoat.com/og-image.png">
+    <meta name="twitter:description" content="The mechanisms behind whitening and blushing in waterborne matte coatings above 80% RH, and how to diagnose and fix them.">
+    <meta name="twitter:title" content="Whitening in Waterborne Matte Coatings at High Humidity: Mechanism, Diagnosis &amp; Fixes | Censilcoat">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/tailwind.css">
+<style>
+  body { font-family: 'Inter', system-ui, sans-serif; }
+  .glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+  .article-body h2 { margin-top: 2.25rem; font-size: 1.35rem; line-height: 1.35; font-weight: 700; color: #0F172A; }
+  .article-body h3 { margin-top: 1.5rem; font-size: 1.08rem; font-weight: 700; color: #0F172A; }
+  .article-body p { margin-top: 0.9rem; }
+  .article-body ul, .article-body ol { margin-top: 0.9rem; padding-left: 1.4rem; }
+  .article-body ul { list-style: disc; }
+  .article-body ol { list-style: decimal; }
+  .article-body li { margin-top: 0.4rem; }
+  .article-body table { width: 100%; border-collapse: collapse; margin-top: 1rem; font-size: 0.875rem; }
+  .article-body th { text-align: left; padding: 0.6rem 0.8rem; border-bottom: 2px solid #E2E8F0; color: #64748B; font-weight: 600; }
+  .article-body td { padding: 0.6rem 0.8rem; border-bottom: 1px solid #E2E8F0; vertical-align: top; }
+  .article-body a { color: #0369A1; font-weight: 500; }
+  .article-body a:hover { text-decoration: underline; }
+  .article-body strong { color: #0F172A; }
+  .article-body caption { caption-side: bottom; text-align: left; font-size: 0.75rem; color: #94A3B8; padding-top: 0.5rem; }
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
+</style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17853357891"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-17853357891');
+  gtag('config', 'G-BTGL2GJGHV');
+</script>
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://censilcoat.com/#censil",
+      "name": "Censil",
+      "description": "Integrated silica manufacturing and trading group with its own plant in Fujian, China.",
+      "sameAs": [
+        "https://www.linkedin.com/company/longyan-shenghe-trading-co.-ltd./"
+      ],
+      "legalName": "Longyan Shenghe Trading Co., Ltd."
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://censilcoat.com/#organization",
+      "name": "Censilcoat",
+      "alternateName": "Censil Coating",
+      "url": "https://censilcoat.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://censilcoat.com/og-image.png",
+        "width": 1200,
+        "height": 630
+      },
+      "image": "https://censilcoat.com/og-image.png",
+      "description": "Factory-direct manufacturer of waterborne silica matting agents — 1:1 performance replacements for Evonik ACEMATT and Grace SYLOID at 20-30% lower cost.",
+      "foundingDate": "2010",
+      "email": "jan.jiang@censilcoat.com",
+      "telephone": "+1-619-558-6563",
+      "parentOrganization": {
+        "@id": "https://censilcoat.com/#censil"
+      },
+      "brand": {
+        "@type": "Brand",
+        "name": "Censil",
+        "logo": "https://censilcoat.com/og-image.png"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Room 2103, Building J, Youth Venture Building, No. 53 Hualian Road, Xipi Subdistrict, Xinluo District",
+        "addressLocality": "Longyan",
+        "addressRegion": "Fujian",
+        "addressCountry": "CN"
+      },
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "sales",
+          "telephone": "+1-619-558-6563",
+          "email": "jan.jiang@censilcoat.com",
+          "availableLanguage": [ "en", "vi", "zh" ],
+          "areaServed": [ "VN", "MY", "TH", "ID", "PH", "SG", "EU", "US", "CA", "BR", "MX", "GB", "DE", "FR", "IT", "ES", "PL", "NL" ]
+        }
+      ],
+      "areaServed": [
+        { "@type": "Country", "name": "Vietnam" },
+        { "@type": "Country", "name": "Malaysia" },
+        { "@type": "Country", "name": "Thailand" },
+        { "@type": "Country", "name": "Indonesia" },
+        { "@type": "Country", "name": "Philippines" },
+        { "@type": "Place", "name": "Europe" },
+        { "@type": "Place", "name": "Americas" }
+      ],
+      "knowsAbout": [
+        "waterborne silica matting agents",
+        "matte coating whitening",
+        "coating blushing high humidity",
+        "film formation waterborne coatings",
+        "wax-modified silica",
+        "matting agent particle size distribution",
+        "ACEMATT replacement",
+        "SYLOID replacement"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/company/longyan-shenghe-trading-co.-ltd./"
+      ],
+      "legalName": "Longyan Shenghe Trading Co., Ltd."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://censilcoat.com/#website",
+      "name": "Censilcoat",
+      "url": "https://censilcoat.com/",
+      "publisher": { "@id": "https://censilcoat.com/#organization" },
+      "inLanguage": [ "en", "vi" ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://censilcoat.com/article-high-humidity-whitening.html#webpage",
+      "url": "https://censilcoat.com/article-high-humidity-whitening.html",
+      "isPartOf": { "@id": "https://censilcoat.com/#website" },
+      "dateModified": "2026-07-26"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://censilcoat.com/index.html" },
+        { "@type": "ListItem", "position": 2, "name": "Resources", "item": "https://censilcoat.com/blog.html" },
+        { "@type": "ListItem", "position": 3, "name": "Whitening in Waterborne Matte Coatings at High Humidity", "item": "https://censilcoat.com/article-high-humidity-whitening.html" }
+      ]
+    },
+    {
+      "@type": "Article",
+      "headline": "Whitening in Waterborne Matte Coatings at High Humidity: Mechanism, Diagnosis and Fixes",
+      "description": "The film-formation and matting-silica mechanisms behind whitening and blushing above 80% relative humidity, how to diagnose which one you have, and the formulation, process and material fixes.",
+      "datePublished": "2026-07-26",
+      "dateModified": "2026-07-26",
+      "author": { "@type": "Organization", "name": "Censilcoat", "url": "https://censilcoat.com/" },
+      "publisher": { "@type": "Organization", "name": "Censilcoat", "url": "https://censilcoat.com/" },
+      "mainEntityOfPage": "https://censilcoat.com/article-high-humidity-whitening.html",
+      "image": "https://censilcoat.com/og-image.png",
+      "about": [
+        "whitening waterborne matte coating",
+        "coating blushing high humidity",
+        "matting agent whitening dark substrate",
+        "film formation relative humidity",
+        "hydrophobic wax-modified silica"
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How to run a high-humidity whitening test on a waterborne matte coating",
+      "description": "A repeatable panel test to reproduce and rank whitening of waterborne matte coatings under tropical humidity before switching a matting agent.",
+      "step": [
+        { "@type": "HowToStep", "position": 1, "name": "Prepare paired drawdowns", "text": "Draw down the incumbent and candidate coatings side by side on the same dark substrate at identical wet-film thickness. Dark substrates make whitening visible." },
+        { "@type": "HowToStep", "position": 2, "name": "Cure at high relative humidity", "text": "Flash and cure the panels in a chamber held at 85% relative humidity and 25 C, reproducing the worst-case tropical window rather than lab-standard 50% RH." },
+        { "@type": "HowToStep", "position": 3, "name": "Measure gloss and haze", "text": "Record 60 degree gloss and, where available, transmission haze or L* on the dark panel. A rise in L* or a milky cast is quantified whitening." },
+        { "@type": "HowToStep", "position": 4, "name": "Stress and recover", "text": "Expose cured panels to condensing humidity for 24 hours, then recondition at 50% RH. Reversible whitening indicates trapped moisture; permanent whitening indicates a porous, poorly coalesced film or silica scatter." },
+        { "@type": "HowToStep", "position": 5, "name": "Compare against the benchmark", "text": "Rank candidate versus incumbent on whitening onset RH, severity and recovery. Only a panel result under high RH — not a datasheet — qualifies a grade for tropical service." }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do waterborne matte coatings turn white or milky in high humidity?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Two mechanisms combine. First, above about 80% relative humidity or below the dew point, water evaporates slowly and coalescing aid can leave before the latex particles fuse, producing a porous, incompletely coalesced film that scatters light and looks milky (blushing). Second, the matting agent itself is a porous silica network with a refractive index different from the binder; when its pores hold water or the film around it stays porous, light scatter increases and the surface looks whitish or grey, most visibly on dark substrates. Hydrophilic, untreated silica makes this worse."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I tell blushing from matting-agent whitening?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Run a recovery test. Blushing from trapped moisture is usually reversible: the film clears as it fully dries or is reconditioned at lower humidity. Whitening from a poorly coalesced porous film or from light scatter around hydrophilic silica tends to be permanent and is strongest on dark substrates. Testing incumbent and candidate side by side on a dark panel at 85% RH separates the two."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does the choice of matting agent affect high-humidity whitening?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Surface treatment and pore structure matter. A wax-modified, more hydrophobic silica takes up less water into its pores and disperses more cleanly, reducing moisture-driven scatter. Controlled pore volume and a narrow particle-size distribution keep matting efficiency high without forcing high loadings that increase film porosity. Grades engineered for waterborne service resist whitening better than general-purpose or repurposed solventborne powder."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="bg-[#F8FAFC] text-ink antialiased">
+
+<!-- HEADER -->
+<header class="sticky top-0 z-40 glass border-b border-line">
+  <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+    <a class='flex items-center gap-2.5' href='/'>
+      <span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-white font-bold text-lg">C</span>
+      <span class="leading-tight"><span class="block font-bold text-primary text-lg tracking-tight">Censilcoat</span><span class="block text-[11px] text-slate-500 -mt-0.5">a Censil brand</span></span>
+    </a>
+    <div class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
+      <a class='hover:text-accent transition-colors duration-200' href='/'>Home</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/products'>Products</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/solutions'>Solutions</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/about'>About</a>
+      <a class='text-accent font-semibold' href='/blog'>Resources</a>
+      <a class='hover:text-accent transition-colors duration-200' href='/contact'>Contact</a>
+    </div>
+    <div class="flex items-center gap-3">
+      <a class='hidden sm:inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#075985] transition-colors duration-200 cursor-pointer' href='/contact'>Request Free Sample</a>
+      <button id="menuBtn" aria-label="Open menu" class="lg:hidden inline-flex h-10 w-10 items-center justify-center rounded-lg border border-line text-slate-700 cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div id="mobileMenu" class="hidden lg:hidden border-t border-line bg-white px-4 py-3 space-y-1 text-sm font-medium text-slate-700">
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/'>Home</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/products'>Products</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/solutions'>Solutions</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/about'>About</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/blog'>Resources</a>
+    <a class='block rounded-md px-3 py-2 hover:bg-mutedbg' href='/contact'>Contact</a>
+    <a class='block rounded-md bg-accent px-3 py-2 text-center text-white font-semibold' href='/contact'>Request Free Sample</a>
+  </div>
+</header>
+
+<main>
+<section class="bg-primary text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-20">
+    <p class="text-sm font-semibold text-sky-300">Technical · <a class='hover:text-white underline decoration-sky-300/40' href='/blog'>Resources</a></p>
+    <h1 class="mt-3 text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight max-w-4xl">Whitening in Waterborne Matte Coatings at High Humidity: Mechanism, Diagnosis &amp; Fixes</h1>
+    <p class="mt-5 text-lg text-slate-300 max-w-2xl">The number-one field failure for matte waterborne coatings in the tropics is a milky, whitish or grey cast that appears above 80% relative humidity. Here is what is physically happening, how to tell the two mechanisms apart, and what to change in formulation, process and material.</p>
+    <p class="mt-6 text-sm text-slate-400">Published <time datetime="2026-07-26">July 26, 2026</time> · Censilcoat technical team</p>
+  </div>
+</section>
+<!-- ============ TL;DR / QUICK ANSWER ============ -->
+<section class="bg-sky-50 border-b border-line">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-12">
+    <p class="text-xs font-semibold uppercase tracking-wider text-accent">Quick answer</p>
+    <h2 class="mt-2 text-xl sm:text-2xl font-bold tracking-tight text-primary leading-snug">Why does a waterborne matte coating whiten at high humidity?</h2>
+    <p class="mt-4 text-base sm:text-[17px] leading-relaxed text-slate-700">Because two light-scattering mechanisms stack. Above roughly 80% relative humidity, water leaves the film slowly and the coalescing aid can evaporate before the latex particles fuse — producing a porous, incompletely coalesced film that looks milky (blushing). At the same time, the matting agent is a porous silica network whose refractive index differs from the binder; when its pores hold moisture, or the surrounding film stays porous, scatter rises and the surface reads whitish or grey, most visibly on dark wood. Hydrophilic, untreated silica amplifies both. The fixes are to protect coalescence (coalescent choice, film thickness, dew-point margin) and to choose a wax-modified, humidity-tolerant silica with controlled pore volume.</p>
+  </div>
+</section>
+
+<section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+  <img src="wood-compare-panel.webp" alt="Dark wood panels comparing clear and whitened waterborne matte coating finishes" loading="lazy" class="w-full h-auto rounded-2xl shadow-sm mb-10">
+  <div class="article-body text-[15.5px] leading-relaxed text-slate-700">
+<p>In a lab conditioned to 25&nbsp;°C and 50% relative humidity, a waterborne matte topcoat can look flawless — clear, even, the target gloss dead-on. Move the same formula to a production line in Ho Chi Minh City or Johor in the wet season, at 85–90% relative humidity, and a milky bloom can appear across the film within hours. Nothing in the can changed. What changed is the physics of how the film formed. This article separates the two mechanisms responsible, gives a test that tells them apart, and lists the fixes in the order a formulator should try them.</p>
+
+<h2>1. How a waterborne film is supposed to form</h2>
+<p>A waterborne coating dries in three overlapping stages. First, water evaporates and the latex particles pack together. Second, once the temperature is above the polymer's minimum film-formation temperature (MFFT) and with the help of a coalescing aid, the packed particles deform from spheres and press into a continuous layer. Third, polymer chains interdiffuse across the old particle boundaries — true <em>coalescence</em> — giving the film its final clarity, hardness and moisture resistance. A film that completes all three stages is optically continuous, so it looks clear. A film that stalls at stage one or two stays full of sub-micron voids, and voids scatter light.</p>
+
+<h2>2. Mechanism A — blushing from incomplete coalescence</h2>
+<p>High humidity attacks stage two and three directly. When relative humidity climbs above about 80%, or the substrate sits near or below the dew point, water evaporates so slowly that the more volatile coalescing aid can leave the film first. Without enough coalescent present at the moment the particles need to deform, they never fully fuse. The result is a porous, incompletely coalesced film — mechanically weaker and optically hazy. This is classic <strong>blushing</strong>: a milky cast that is often partly reversible once the film finally dries or is reconditioned at lower humidity. Industry film-formation guidance is consistent on the threshold — keep relative humidity below 80%, ideally 40–60%, for clean film formation — which is precisely the window a tropical plant cannot hold for much of the year.</p>
+
+<h2>3. Mechanism B — scatter from the matting agent</h2>
+<p>The second mechanism is specific to matte coatings and is the one buyers most often blame on "a bad batch of silica." A matting agent works by roughening the film surface at a microscopic scale so that light reflects diffusely instead of specularly — that is what lowers gloss. But the same particle is a porous silica body with a refractive index (~1.45) different from the cured binder. Three things turn that useful scatter into unwanted whitening:</p>
+<ul>
+<li><strong>Moisture in the pores.</strong> A hydrophilic, untreated silica draws water into its internal pore volume. Water sitting in and around the particle increases the refractive-index mismatch and the scatter, reading as a whitish or grey haze — worst on dark substrates where there is little reflected color to mask it.</li>
+<li><strong>A porous film around the particle.</strong> If Mechanism A has left voids, those voids cluster around the relatively large silica particles, compounding the scatter.</li>
+<li><strong>Over-dosing.</strong> Pushing loading to hit a low gloss target raises the volume fraction of scattering silica and can itself increase whitening and lower film integrity.</li>
+</ul>
+<p>This whitening tends to be <strong>permanent</strong>, because it is built into the cured film's structure rather than being transient trapped water.</p>
+
+<h2>4. Diagnosis: which mechanism do you have?</h2>
+<p>The two mechanisms call for different fixes, so identify them before changing anything. The fastest discriminator is a recovery test on a dark panel.</p>
+<table>
+<thead><tr><th>Observation</th><th>Points to</th><th>First lever to pull</th></tr></thead>
+<tbody>
+<tr><td>Milky cast clears as the film fully dries / is reconditioned at 50% RH</td><td>Mechanism A (blushing / trapped moisture, incomplete coalescence)</td><td>Coalescent package, dew-point margin, film thickness</td></tr>
+<tr><td>Whitish or grey cast is permanent, strongest on dark wood</td><td>Mechanism B (silica scatter) — often on top of A</td><td>Switch to a wax-modified hydrophobic grade; check loading</td></tr>
+<tr><td>Appears only above ~80% RH, both mechanisms</td><td>Combined — typical tropical failure</td><td>Fix process window first, then material</td></tr>
+<tr><td>Hard, gritty sediment in the can before application</td><td>Related dispersion problem, not humidity</td><td>See our <a href="/article-troubleshooting-matting">troubleshooting guide</a></td></tr>
+</tbody>
+</table>
+
+<h2>5. The fixes, in order</h2>
+<h3>Process first — it is free</h3>
+<ul>
+<li><strong>Hold a dew-point margin.</strong> Keep substrate temperature several degrees above the dew point and, where possible, cap booth humidity below 80%. Dehumidification in the flash-off zone often solves borderline cases outright.</li>
+<li><strong>Do not over-apply.</strong> Thicker wet films trap water longer; apply at the specified wet-film thickness rather than building gloss down with extra material.</li>
+<li><strong>Give it flash time.</strong> Extend flash-off before force-drying so water can leave before the surface skins over.</li>
+</ul>
+<h3>Formulation second</h3>
+<ul>
+<li><strong>Match the coalescent to the humidity.</strong> Choose a coalescing aid whose evaporation profile keeps it in the film until the particles have deformed; slower, less water-sensitive coalescents help at high RH.</li>
+<li><strong>Balance the defoamer and wetting package</strong> so entrained air is not adding its own scatter.</li>
+<li><strong>Right-size the matting loading</strong> to the gloss target rather than over-dosing a low-efficiency grade.</li>
+</ul>
+<h3>Material third — the matting agent itself</h3>
+<p>When process and formulation are sound and whitening on dark substrates persists, the matting agent is the variable. The properties that resist high-humidity whitening are:</p>
+<table>
+<thead><tr><th>Property</th><th>Why it helps against whitening</th></tr></thead>
+<tbody>
+<tr><td>Wax-modified / hydrophobic surface treatment</td><td>Takes up less water into the pore structure, cutting moisture-driven scatter and improving dispersion</td></tr>
+<tr><td>Controlled pore volume (≈1.6–1.8 mL/g)</td><td>Enough structure for efficient matting without excessive water-holding voids</td></tr>
+<tr><td>Narrow particle-size distribution</td><td>Predictable gloss at lower loading, so less scattering silica in the film</td></tr>
+<tr><td>Soft, re-stirrable sediment (high-melt PE-wax treatment)</td><td>Stable in low-viscosity waterborne systems without hard caking that forces re-work</td></tr>
+</tbody>
+</table>
+<p>This is the design brief behind the Censilcoat range: wax-modified amorphous precipitated silica, pore volume 1.6–1.8&nbsp;mL/g and surface area 250–280&nbsp;m²/g across the line, with grades benchmarked 1:1 against the imported grades most tropical plants already run. For high-clarity water-white clears on dark solid wood — the hardest whitening case — <strong>Censil660</strong> (d50 5.0–5.3&nbsp;μm, benchmarked to Grace SYLOID® ED&nbsp;30) is the lead grade; for universal semi-matte to matte work, <strong>Censil361C</strong> (d50 5.9–6.2&nbsp;μm, benchmarked to SYLOID® ED&nbsp;4). Full parameters are on the <a href="/products">products page</a>.</p>
+
+<h2>6. A test that actually predicts the field</h2>
+<p>Datasheets are generated at 50% RH and will not tell you how a grade behaves at 85%. Before qualifying any matting agent for tropical service, reproduce the failure deliberately:</p>
+<ol>
+<li>Draw down incumbent and candidate side by side on the same <strong>dark</strong> substrate at identical wet-film thickness.</li>
+<li>Flash and cure both in a chamber at <strong>85% RH, 25&nbsp;°C</strong> — the worst-case window, not lab standard.</li>
+<li>Record 60° gloss and, if you can, L* or transmission haze on the dark panel.</li>
+<li>Expose to condensing humidity for 24&nbsp;h, then recondition at 50% RH and re-read. <strong>Reversible</strong> whitening = trapped moisture (Mechanism A); <strong>permanent</strong> whitening = porous film or silica scatter (Mechanism B).</li>
+<li>Rank candidate vs. incumbent on onset RH, severity and recovery. Only that panel result qualifies a grade.</li>
+</ol>
+
+<h2>Summary</h2>
+<p>Whitening in waterborne mattes at high humidity is not one problem but two that arrive together: a coalescence failure that makes the whole film porous, and light scatter from a moisture-loaded matting silica. Fix the process window first, the coalescent package second, and treat the matting agent as the deciding variable when whitening persists on dark substrates. A wax-modified, humidity-tolerant silica with controlled pore volume is engineered for exactly this environment.</p>
+<p>For the adjacent lab work, see our guides on <a href="/article-choose-matting-agent">choosing a matting agent</a>, <a href="/article-replace-imported-grades">running a 1:1 replacement</a> and the broader <a href="/article-troubleshooting-matting">troubleshooting guide</a>. To test a benchmarked, humidity-tolerant grade on your own system, a <a href="/contact">free 2&nbsp;kg sample</a> ships with a parameter-matched comparison sheet, TDS, SDS and REACH Declaration of Conformity.</p>
+
+  </div>
+</section>
+
+<section class="bg-primary">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+    <h2 class="text-3xl font-bold text-white">Whitening on your line at 85% RH?</h2>
+    <p class="mt-4 text-slate-300 max-w-2xl mx-auto">Tell us your resin system, substrate and the imported grade you run — we'll recommend a humidity-tolerant 1:1 match and ship a free 2 kg sample for a paired panel test.</p>
+    <a class='mt-8 inline-flex items-center justify-center gap-2 rounded-lg bg-white px-7 py-3.5 text-base font-semibold text-primary shadow-lg hover:bg-slate-100 transition-colors duration-200 cursor-pointer' href='/contact'>Request a Free 2&nbsp;kg Sample
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+  </div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-ink text-slate-400">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14">
+    <div class="grid gap-10 md:grid-cols-4">
+      <div class="md:col-span-1">
+        <div class="flex items-center gap-2.5"><span class="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-white text-primary font-bold text-lg">C</span><span class="font-bold text-white text-lg">Censilcoat</span></div>
+        <p class="mt-4 text-sm leading-relaxed">Waterborne silica matting agents. A 1:1 performance match for European premium brands — built for Southeast Asia.</p>
+      </div>
+      <div><h4 class="text-sm font-semibold text-white">Explore</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/products'>Products</a></li><li><a class='hover:text-white transition-colors' href='/solutions'>Solutions</a></li><li><a class='hover:text-white transition-colors' href='/about'>About</a></li><li><a class='hover:text-white transition-colors' href='/blog'>Resources</a></li><li><a class='hover:text-white transition-colors' href='/faq'>FAQ</a></li><li><a class='hover:text-white transition-colors' href='/news'>News</a></li><li><a class='hover:text-white transition-colors' href='/documents'>Documents</a></li><li><a class='hover:text-white transition-colors' href='/media'>Media</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Solutions</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/solutions'>High-Clarity Water-White</a></li><li><a class='hover:text-white transition-colors' href='/solutions'>Universal Stable Matting</a></li><li><a class='hover:text-white transition-colors' href='/solutions'>Premium Deep-Matte</a></li></ul></div>
+      <div><h4 class="text-sm font-semibold text-white">Get in touch</h4><ul class="mt-4 space-y-2 text-sm"><li><a class='hover:text-white transition-colors' href='/contact'>Request a free sample</a></li><li><a href="https://wa.me/16195586563" target="_blank" rel="noopener" class="hover:text-white transition-colors">WhatsApp: +1 619 558 6563</a></li><li><a href="mailto:jan.jiang@censilcoat.com" class="hover:text-white transition-colors">jan.jiang@censilcoat.com</a></li><li>Vietnam &amp; Malaysia focus</li></ul></div>
+    </div>
+    <div class="mt-12 border-t border-white/10 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <p>© 2026 Censilcoat, a Censil brand. All rights reserved. · <a class='hover:text-white transition-colors underline decoration-white/30' href='/privacy'>Privacy &amp; Cookie Policy</a></p>
+      <p class="mt-0 text-white/50">Last updated <time datetime="2026-07-26">July 26, 2026</time></p>
+      <p>ACEMATT® is a trademark of Evonik. SYLOID® is a trademark of Grace. Used for benchmarking reference only.</p>
+    </div>
+  </div>
+</footer>
+<script>
+  const btn = document.getElementById('menuBtn'); const menu = document.getElementById('mobileMenu');
+  if (btn) btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+</script>
+<!-- WhatsApp floating button -->
+<a href="https://wa.me/16195586563?text=Hi%20Censilcoat%2C%20I%27d%20like%20to%20ask%20about%20your%20silica%20matting%20agents." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"
+   class="fixed bottom-5 right-5 z-50 inline-flex h-14 w-14 items-center justify-center rounded-full bg-[#25D366] text-white shadow-lg hover:scale-110 transition-transform duration-200">
+  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 32 32" fill="currentColor"><path d="M16.004 3.2c-7.06 0-12.8 5.74-12.8 12.8 0 2.26.59 4.46 1.71 6.4L3.2 28.8l6.58-1.67a12.74 12.74 0 0 0 6.22 1.6h.01c7.06 0 12.79-5.74 12.79-12.8s-5.74-12.73-12.8-12.73zm0 23.39h-.01a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.02 1.02 1.07-3.92-.25-.4a10.58 10.58 0 0 1-1.63-5.65c0-5.86 4.77-10.63 10.64-10.63 2.84 0 5.51 1.11 7.52 3.11a10.57 10.57 0 0 1 3.11 7.53c0 5.86-4.77 10.65-10.64 10.65zm5.83-7.97c-.32-.16-1.89-.93-2.18-1.04-.29-.11-.5-.16-.72.16-.21.32-.82 1.04-1.01 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.59-1.9-1.78-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.37.48-.56.16-.19.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.29.32-1.12 1.09-1.12 2.66 0 1.57 1.14 3.08 1.3 3.29.16.21 2.25 3.44 5.45 4.82.76.33 1.36.53 1.82.67.77.24 1.46.21 2.01.13.61-.09 1.89-.77 2.16-1.52.27-.75.27-1.39.19-1.52-.08-.13-.29-.21-.61-.37z"/></svg>
+</a>
+
+</body>
+</html>
