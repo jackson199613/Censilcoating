@@ -12,13 +12,13 @@ Censilcoat supplies amorphous precipitated silica matting agents (SiO₂ ≥ 99%
 - Product type: wax-modified amorphous precipitated silica matting agents, waterborne systems
 - Cost position: 20–30% below ACEMATT® OK 412 / SYLOID® ED 30 landed cost
 - MOQ: 500 kg – 1 ton (flexible, first orders)
-- Free sample: 2 kg with 1:1 benchmark sheet, TDS, SDS and REACH DoC
+- Free sample: 2 kg with 1:1 benchmark sheet, TDS, SDS
 - Lead time: 2–3 weeks door-to-port; 3–7 days sea freight to Vietnam / Malaysia
 - Packing: 20 kg multi-wall bags, palletized, export-ready
 - Customization: d50 tunable 3.5–7.0 μm; wax-coating ratio adjustable
 - Dosage: 1–4% on total formulation
 - Dispersion: high-speed stirring 15–20 min; no bead-milling required
-- Compliance: REACH DoC, SDS, TDS, COA provided; amorphous (non-crystalline) silica
+- Compliance: SDS, TDS, COA provided; amorphous (non-crystalline) silica
 
 ## Product range (7 grades, with 1:1 import benchmarks)
 
@@ -52,8 +52,8 @@ All grades: pore volume 1.6–1.8 mL/g, surface area 250–280 m²/g.
 - [Products](https://censilcoat.com/products.html): all 7 grades with particle size, pore volume, surface area, import benchmarks, application selector
 - [Solutions](https://censilcoat.com/solutions.html): three engineered matting solutions mapped to resin system and target gloss
 - [About](https://censilcoat.com/about.html): company background, production base, certifications, target markets
-- [FAQ](https://censilcoat.com/faq.html): MOQ, samples, 1:1 replacement, lead times, dosage, dispersion, REACH compliance, safety
-- [Documents](https://censilcoat.com/documents.html): TDS, SDS, COA and REACH Declaration of Conformity requests
+- [FAQ](https://censilcoat.com/faq.html): MOQ, samples, 1:1 replacement, lead times, dosage, dispersion, safety
+- [Documents](https://censilcoat.com/documents.html): TDS, SDS, COA requests
 - [Contact](https://censilcoat.com/contact.html): free 2 kg sample request form
 
 ## Technical articles

@@ -12,13 +12,13 @@ Censilcoat supplies amorphous precipitated silica matting agents (SiO₂ ≥ 99%
 - Product type: wax-modified amorphous precipitated silica matting agents, waterborne systems
 - Cost position: 20–30% below ACEMATT® OK 412 / SYLOID® ED 30 landed cost
 - MOQ: 500 kg – 1 ton (flexible, first orders)
-- Free sample: 2 kg with 1:1 benchmark sheet, TDS, SDS and REACH DoC
+- Free sample: 2 kg with 1:1 benchmark sheet, TDS, SDS
 - Lead time: 2–3 weeks door-to-port; 3–7 days sea freight to Vietnam / Malaysia
 - Packing: 20 kg multi-wall bags, palletized, export-ready
 - Customization: d50 tunable 3.5–7.0 μm; wax-coating ratio adjustable
 - Dosage: 1–4% on total formulation
 - Dispersion: high-speed stirring 15–20 min; no bead-milling required
-- Compliance: REACH DoC, SDS, TDS, COA provided; amorphous (non-crystalline) silica
+- Compliance: SDS, TDS, COA provided; amorphous (non-crystalline) silica
 
 ## Product range (7 grades, with 1:1 import benchmarks)
 
@@ -52,8 +52,8 @@ All grades: pore volume 1.6–1.8 mL/g, surface area 250–280 m²/g.
 - [Products](https://censilcoat.com/products.html): all 7 grades with particle size, pore volume, surface area, import benchmarks, application selector
 - [Solutions](https://censilcoat.com/solutions.html): three engineered matting solutions mapped to resin system and target gloss
 - [About](https://censilcoat.com/about.html): company background, production base, certifications, target markets
-- [FAQ](https://censilcoat.com/faq.html): MOQ, samples, 1:1 replacement, lead times, dosage, dispersion, REACH compliance, safety
-- [Documents](https://censilcoat.com/documents.html): TDS, SDS, COA and REACH Declaration of Conformity requests
+- [FAQ](https://censilcoat.com/faq.html): MOQ, samples, 1:1 replacement, lead times, dosage, dispersion, safety
+- [Documents](https://censilcoat.com/documents.html): TDS, SDS, COA requests
 - [Contact](https://censilcoat.com/contact.html): free 2 kg sample request form
 
 ## Technical articles
@@ -89,7 +89,7 @@ Flexible: 500 kg to 1 ton for a first order — not the 5–10 tons or full cont
 
 ### Can I get a free sample before ordering?
 
-Yes. We ship a free 2 kg evaluation sample of the recommended grade(s), together with a 1:1 physicochemical benchmark sheet against your current import grade, the relevant TDS, and a REACH Declaration of Conformity. Tell us your resin system, target gloss and current grade on the contact form.
+Yes. We ship a free 2 kg evaluation sample of the recommended grade(s), together with a 1:1 physicochemical benchmark sheet against your current import grade and the relevant TDS. Tell us your resin system, target gloss and current grade on the contact form.
 
 ### Which imported grades can Censil products replace 1:1?
 
@@ -107,9 +107,6 @@ The range is engineered against specific benchmarks: Censil660 and Censil1650A v
 
 No. All Censil grades disperse fully with high-speed stirring for 15–20 minutes. No bead-milling or grinding is required. Add the matting agent after resin letdown under moderate shear.
 
-### Are the products REACH compliant? Do you provide SDS and COA?
-
-Yes. A REACH Declaration of Conformity (DoC) is provided, along with the Safety Data Sheet (SDS), Technical Data Sheet (TDS), and a Certificate of Analysis (COA) with every batch.
 
 ### Is this crystalline silica? Any health concerns?
 
@@ -198,4 +195,4 @@ Address: Room 2103, Building J, Youth Venture Building, No. 53 Hualian Road, Xip
 ACEMATT® is a trademark of Evonik. SYLOID® is a trademark of Grace. Used for benchmarking reference only.
 
 
-CAS number: 112926-00-8 (amorphous precipitated silica). REACH-compliant, RoHS compliant, no crystalline silica.
+CAS number: 112926-00-8 (amorphous precipitated silica). RoHS compliant, no crystalline silica.
