@@ -1,6 +1,6 @@
-# Censilcoating
+# Censilcoat
 
-Marketing website for **Censilcoating** — waterborne silica matting agents, a 1:1 performance match for European premium brands (Evonik ACEMATT® / Grace SYLOID®), built for Southeast Asia.
+Marketing website for **Censilcoat** — waterborne silica matting agents, a 1:1 performance match for European premium brands (Evonik ACEMATT® / Grace SYLOID®), built for Southeast Asia.
 
 ## Stack
 
@@ -26,5 +26,5 @@ Netlify will serve `index.html` as the entry point automatically.
 
 ## Notes
 
-- `censilcoating.com` is a placeholder domain in the meta tags / sitemap — replace with the real domain before launch.
+- Production domain: `censilcoat.com`.
 - The sample-request form is front-end only; connect it to a form backend (e.g. Netlify Forms) to receive submissions.

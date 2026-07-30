@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-自动生成 sitemap.xml — Censilcoating
+自动生成 sitemap.xml — Censilcoat
 
 扫描仓库全部 .html，用 git 最后提交时间作为 lastmod。
 由 .github/workflows/sitemap.yml 在每次 push 时自动执行。
