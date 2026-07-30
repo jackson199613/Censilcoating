@@ -54,6 +54,12 @@ All grades: pore volume 1.6–1.8 mL/g, surface area 250–280 m²/g.
 - [About](https://censilcoat.com/about.html): company background, production base, certifications, target markets
 - [FAQ](https://censilcoat.com/faq.html): MOQ, samples, 1:1 replacement, lead times, dosage, dispersion, safety
 - [Documents](https://censilcoat.com/documents.html): TDS, SDS, COA requests
+- [SYLOID ED 30 → Censil660 / 1650A](https://censilcoat.com/alternatives/syloid-ed-30-alternative.html): lab-measured 1:1 benchmark
+- [SYLOID ED 2 → Censil651](https://censilcoat.com/alternatives/syloid-ed-2-alternative.html): lab-measured 1:1 benchmark
+- [SYLOID ED 3 → Censil351C](https://censilcoat.com/alternatives/syloid-ed-3-alternative.html): lab-measured 1:1 benchmark
+- [SYLOID ED 4 → Censil361C](https://censilcoat.com/alternatives/syloid-ed-4-alternative.html): lab-measured 1:1 benchmark
+- [ACEMATT OK 412 → Censil361C](https://censilcoat.com/alternatives/acematt-ok-412-alternative.html): lab-measured 1:1 benchmark
+- [ACEMATT TS 100 → Censil3851](https://censilcoat.com/alternatives/acematt-ts-100-alternative.html): lab-measured 1:1 benchmark
 - [Contact](https://censilcoat.com/contact.html): free 2 kg sample request form
 
 ## Technical articles
