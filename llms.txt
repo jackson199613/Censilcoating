@@ -70,6 +70,7 @@ All grades: pore volume 1.6–1.8 mL/g, surface area 250–280 m²/g.
 - [Replacing Imported Matting Agents 1:1](https://censilcoat.com/article-replace-imported-grades.html): six-step path to drop-in replacement of Evonik and Grace grades in ultra-thin waterborne plastic coatings
 - [Matting Agent Troubleshooting Guide](https://censilcoat.com/article-troubleshooting-matting.html): mechanisms and fixes for whiting, hard caking, viscosity spikes and grey cast on dark substrates
 - [Whitening in Waterborne Matte Coatings at High Humidity](https://censilcoat.com/article-high-humidity-whitening.html): the two mechanisms behind whitening/blushing above 80% RH (incomplete coalescence + matting-silica light scatter), a dark-panel diagnosis test, and process/formulation/material fixes including wax-modified hydrophobic silica selection
+- [ACEMATT OK 412 vs SYLOID ED 30: A Lab-Measured Comparison](https://censilcoat.com/article-ok412-vs-ed30-lab-comparison.html): parallel lab measurement of the two imported matting-agent benchmarks — pore volume, surface area, viscosity impact, 85% RH blushing and 7-day settling in one waterborne system
 
 ## Markets served
 
